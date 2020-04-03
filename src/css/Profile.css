@@ -1,0 +1,356 @@
+.type{
+	height: 3rem;
+	width:10rem;
+    padding-left: 1rem;
+    margin-left: 2rem;
+    border: 2px solid slategray;
+    border-radius:10%;
+}
+.chat{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: grid;
+    grid-template-columns: 0.2fr 1.5fr 2fr;
+}
+.sent{
+    display: inline;
+    width: 2rem;
+    height: 2rem;
+}
+.search{
+    margin: 0.5rem;
+    border: 2px solid slategray;
+    border-radius:3%;
+    width: 25rem;
+    padding: 1rem;
+}
+.profile{
+    width: 10rem;
+    height: 10rem;
+    margin: auto;
+    padding: auto;
+    display: block;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    border-radius: 55%;
+}
+
+a{
+    font-size: 1.2rem;
+    text-decoration-line: none;
+    display: block;
+    margin-left: 5rem;
+    padding-top: 1rem;
+    font-weight: bold;
+    color: black;
+}
+p{
+    margin-top: 0.2rem;
+    font-weight: bold;
+    text-align: center;
+}
+h1{
+    color: blueviolet;
+    text-align: left;
+    margin-left: 3.3rem;
+    font-size: 1.2rem;
+    margin-top: 0.4rem;
+}
+a:active{
+    background-color: #A5BDFF;
+    color: blueviolet;
+}
+.people :hover{
+            background-color: #D8BFD8;
+            cursor: pointer;
+}
+.chatdp{
+    width: 5rem;
+    height: 4rem;
+    margin-top: 2rem;
+    margin-left: 1rem;
+    border-radius: 65%;
+    margin-top: 3%;
+}
+h2{
+    font-size: 1rem;
+    margin-left: 2rem;
+    margin-top: 0%;
+}
+.people{
+    margin-left: 3rem;
+}
+h4.people{
+    margin-left: 3rem;
+}
+.people .chatpeople{
+    border: 1px solid slategray;
+}
+.chatpeople{
+    display: grid;
+    grid-template-columns: 20% 60% 20%;
+    padding: 1rem;
+}
+.heading h3{
+    display: inline-block;
+    margin-left: 2rem;
+}
+.heading h2{
+    display: block;
+    margin-top: 0.2rem;
+    color: grey;
+}
+.heading .active{
+    color: #008000;
+}
+h5{
+    margin-left: 2.3rem;
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+.number{
+    margin-left: 4rem;
+    font-size: 1rem;
+    border: 1px solid #8A2Be2;
+    border-radius: 20%;
+    background-color: #8A2Be2;
+    color: whitesmoke;
+}
+.nav{
+    margin-left: 0%;
+}
+.profilenav{
+    margin-left: 0%;
+    display: inline;
+}
+.container {
+    border: 2px solid #dedede;
+    background-color: #f1f1f1;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    margin-left: 2rem;
+    margin-right: 2rem;
+  }
+  .darker {
+    border-color: #ccc;
+    background-color: #ddd;
+  }
+
+  .container::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+
+  .container img {
+    float: left;
+    width: 5rem;
+    height: 5rem;
+    margin-right: 20px;
+    border-radius: 50%;
+  }
+
+  .container img.right {
+    float: right;
+    margin-left: 20px;
+    margin-right:0;
+  }
+
+  .time-right {
+    float: right;
+    color: #aaa;
+  }
+
+  .time-left {
+    float: left;
+    color: #999;
+  }
+  @media screen and (min-width: 800px) and  (max-width:1200px) {
+    .header{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        background-color: #A5BDFF;
+    }
+    .logo{
+        width: 5rem;
+        height: 4rem;
+        margin: auto;
+        padding: auto;
+        display: block;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+        border-radius: 5%;
+    }
+    i{
+        margin-top: 2rem;
+        padding-left: 1rem;
+        font-size: 1rem;
+        text-align: center; 
+        margin-left: 3rem;;
+    }
+    .chat{
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        margin-right: 2rem;
+        display: grid;
+        grid-template-columns: 0.2fr  2fr;
+    }
+    .profile{
+        width: 8rem;
+        height: 8rem;
+        margin: auto;
+        padding: auto;
+        display: block;
+        margin-top: 2rem;
+        margin-left: 2rem;
+        border-radius: 55%;
+    }
+    
+    a{
+        font-size: 1rem;
+        text-decoration-line: none;
+        display: block;
+        margin-left: 5rem;
+        padding-top: 1rem;
+        font-weight: bold;
+        color: black;
+    }
+    h1{
+        color: blueviolet;
+        text-align: left;
+        margin-left: 3.3rem;
+        font-size: 1rem;
+        margin-top: 0.4rem;
+    }
+    a:active{
+        background-color: #A5BDFF;
+        color: blueviolet;
+    }
+    .search{
+        margin: 0.2rem;
+        border: 2px solid slategray;
+        border-radius:3%;
+        width: 20rem;
+        padding: 1rem;
+    }
+    .heading h3{
+        display: inline-block;
+        margin-left: 2.5rem;
+        font-size: 1rem;
+    }
+    .heading h2{
+        display: block;
+        margin-top: 0.2rem;
+        color: grey;
+        margin-left: 2.5rem;
+    }
+    .number{
+        margin-left: 2rem;
+       
+    }
+    h5{
+        margin-left: 2rem;
+        font-size: 1rem;
+        margin-top: 1rem;
+    }
+    .chatbtwnppl{
+        display: none;
+        visibility: hidden;
+    }
+    .type{
+        height: 3rem;
+        padding-left: 1rem;
+        margin-left: 2rem;
+        margin-bottom: 2rem;
+        border: 2px solid slategray;
+        border-radius:10%;
+    }
+  }
+
+  @media screen and (min-width:300px) and (max-width: 700px) {
+    body{
+        border: none;
+    }
+    .logo{
+        width: 5rem;
+        height: 4rem;
+        margin: auto;
+        padding: auto;
+        display: block;
+        margin-top: 0.5rem;
+        margin-bottom: 0.5rem;
+        border-radius: 5%;
+    }
+    i{
+        margin-top: 2rem;
+        padding-left: 2rem;
+        font-size: 1rem;
+        text-align: center; 
+        margin-left: 0.8rem;;
+    }
+.profilepage ,.chatbtwnppl{
+        visibility: hidden;
+        display: none;
+    }
+    .people{
+        margin-left: 1rem;
+        }
+    .chat{
+        margin:0rem;
+              display: grid;
+            grid-template-columns: 2fr;
+    }
+    .profile{
+        margin: auto;
+        padding: auto;
+        display: block;
+        margin-top: 1rem;
+    }
+    .chat1 a{
+        font-size: 1.2rem;
+        text-decoration-line: none;
+        display: block;
+        text-align: center;
+        margin-left: 2.5rem;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+        font-weight: bold;
+        color: black;
+    }
+    p{
+        margin-top: 0.2rem;
+        font-weight: bold;
+        text-align: center;
+    }
+    h1{
+        color: blueviolet;
+        text-align: center;
+        margin-left: 2rem;
+        font-size: 1.5rem;
+        margin-top: 0.4rem;
+    }
+    .type{
+        height: 3rem;
+        padding-left: 1rem;
+        margin-left: 2rem;
+        margin-bottom: 2rem;
+        border: 2px solid slategray;
+        border-radius:10%;
+        width: 10rem;
+    }
+    .nav{
+        margin-left: 0%;
+    }
+    .heading h3{
+        display: inline-block;
+        margin-left: 2rem;
+        font-size: 1rem;
+    }
+    .heading h2{
+        display: block;
+        margin-top: 0.2rem;
+        color: grey;
+        margin-left: 2rem;
+    }
+  }
