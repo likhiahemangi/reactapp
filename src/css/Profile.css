@@ -1,4 +1,4 @@
-.type{
+    .type{
 	height: 3rem;
 	width:10rem;
     padding-left: 1rem;
@@ -166,35 +166,19 @@ h5{
     float: left;
     color: #999;
   }
-  @media screen and (min-width: 800px) and  (max-width:1200px) {
-    .header{
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        background-color: #A5BDFF;
-    }
-    .logo{
-        width: 5rem;
-        height: 4rem;
-        margin: auto;
-        padding: auto;
-        display: block;
-        margin-top: 0.5rem;
-        margin-bottom: 0.5rem;
-        border-radius: 5%;
-    }
-    i{
-        margin-top: 2rem;
-        padding-left: 1rem;
-        font-size: 1rem;
-        text-align: center; 
-        margin-left: 3rem;;
-    }
-    .chat{
+  @media screen and (min-width: 700px) and  (max-width:1000px){
+        .chatbtwnppl{
+            visibility: hidden;
+            display: none;
+        }
+  }
+  @media screen and (min-width: 800px) and  (max-width:1400px) {
+     .chat{
         margin-top: 2rem;
         margin-bottom: 2rem;
-        margin-right: 2rem;
+        margin-right: 1.2rem;
         display: grid;
-        grid-template-columns: 0.2fr  2fr;
+        grid-template-columns: 0.2fr  0.8fr 1fr;
     }
     .profile{
         width: 8rem;
@@ -254,10 +238,6 @@ h5{
         font-size: 1rem;
         margin-top: 1rem;
     }
-    .chatbtwnppl{
-        display: none;
-        visibility: hidden;
-    }
     .type{
         height: 3rem;
         padding-left: 1rem;
@@ -266,35 +246,19 @@ h5{
         border: 2px solid slategray;
         border-radius:10%;
     }
+    .people{
+        margin-left:1.5rem;
+    }
   }
 
   @media screen and (min-width:300px) and (max-width: 700px) {
-    body{
-        border: none;
-    }
-    .logo{
-        width: 5rem;
-        height: 4rem;
-        margin: auto;
-        padding: auto;
-        display: block;
-        margin-top: 0.5rem;
-        margin-bottom: 0.5rem;
-        border-radius: 5%;
-    }
-    i{
-        margin-top: 2rem;
-        padding-left: 2rem;
-        font-size: 1rem;
-        text-align: center; 
-        margin-left: 0.8rem;;
-    }
+   
 .profilepage ,.chatbtwnppl{
         visibility: hidden;
         display: none;
     }
     .people{
-        margin-left: 1rem;
+        margin-left: 0.2rem;
         }
     .chat{
         margin:0rem;

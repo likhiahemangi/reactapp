@@ -7,7 +7,7 @@ const Greeting = () => {
 	<>
 		<header className="header">
         <div>
-            <i class="fas fa-arrow-circle-left"><h2> Menu</h2></i>
+                  <h2> Menu</h2>
         </div>
         <div>
             <img src={logo} alt="logo" className="logo"/>
@@ -15,7 +15,7 @@ const Greeting = () => {
         <div>
                 <i class="fas fa-search"></i>
                 <i class="fas fa-cog"></i>
-               <a href="profile.html" className="profilenav"><i class="fas fa-sliders-h"></i></a> 
+                 <i class="fas fa-sliders-h"></i>
         </div> 
     </header>
 	</>)
